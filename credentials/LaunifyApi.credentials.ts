@@ -6,7 +6,7 @@ import {
 export class LaunifyApi implements ICredentialType {
 	name = 'launifyApi';
 	displayName = 'Launify API';
-	documentationUrl = 'https://launify.com/';
+	documentationUrl = 'https://launify.docs.apiary.io/';
 	properties: INodeProperties[] = [
 		{
 			displayName: 'API Key',
