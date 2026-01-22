@@ -1,0 +1,21 @@
+{
+	"node": "n8n-nodes-launify.Launify",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Data & Storage",
+		"Utility"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://launify.com/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://launify.com/"
+			}
+		]
+	}
+}
