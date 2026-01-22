@@ -27,6 +27,7 @@ export class Launify implements INodeType {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
 				'Referer': '={{$credentials.referer}}',
+				'Origin': '={{$credentials.referer}}',
 			},
 		},
 		properties: [
@@ -138,7 +139,7 @@ export class Launify implements INodeType {
 								baseURL: 'https://telephones.service.launify.com',
 								url: '/api/validate/phone',
 								qs: {
-									api_key: '={{$credentials.apiKey}}',
+									apiKey: '={{$credentials.apiKey}}',
 								},
 							},
 						},
@@ -174,7 +175,7 @@ export class Launify implements INodeType {
 								baseURL: 'https://emails.service.launify.com',
 								url: '/api/validate/email',
 								qs: {
-									api_key: '={{$credentials.apiKey}}',
+									apiKey: '={{$credentials.apiKey}}',
 								},
 							},
 						},
