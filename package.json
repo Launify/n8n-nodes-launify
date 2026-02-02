@@ -1,6 +1,6 @@
 {
   "name": "@launify/n8n-nodes-launify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "N8N node for Launify.com API",
   "keywords": [
     "n8n-community-node-package"

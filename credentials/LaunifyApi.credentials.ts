@@ -21,7 +21,7 @@ export class LaunifyApi implements ICredentialType {
 			name: 'referer',
 			type: 'string',
 			default: '',
-			description: 'The domain whitelisted for your API Key (e.g., https://your-domain.com)',
+			description: 'The domain whitelisted for your API Key (e.g. "your-domain.com" or "localhost")',
 			required: true,
 		},
 	];
