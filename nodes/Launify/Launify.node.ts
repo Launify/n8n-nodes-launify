@@ -89,6 +89,10 @@ export class Launify implements INodeType {
 								qs: {
 									apiKey: '={{$credentials.apiKey}}',
 								},
+								headers: {
+									'Referer': '={{$credentials.referer}}',
+									'Origin': '={{$credentials.referer}}',
+								},
 							},
 						},
 					},
@@ -104,6 +108,10 @@ export class Launify implements INodeType {
 								url: '/geocode',
 								qs: {
 									apiKey: '={{$credentials.apiKey}}',
+								},
+								headers: {
+									'Referer': '={{$credentials.referer}}',
+									'Origin': '={{$credentials.referer}}',
 								},
 							},
 						},
@@ -141,6 +149,10 @@ export class Launify implements INodeType {
 								qs: {
 									apiKey: '={{$credentials.apiKey}}',
 								},
+								headers: {
+									'Referer': '={{$credentials.referer}}',
+									'Origin': '={{$credentials.referer}}',
+								},
 							},
 						},
 					},
@@ -177,6 +189,10 @@ export class Launify implements INodeType {
 								qs: {
 									apiKey: '={{$credentials.apiKey}}',
 								},
+								headers: {
+									'Referer': '={{$credentials.referer}}',
+									'Origin': '={{$credentials.referer}}',
+								},
 							},
 						},
 					},
@@ -212,6 +228,10 @@ export class Launify implements INodeType {
 								url: '/autocomplete',
 								qs: {
 									apiKey: '={{$credentials.apiKey}}',
+								},
+								headers: {
+									'Referer': '={{$credentials.referer}}',
+									'Origin': '={{$credentials.referer}}',
 								},
 							},
 						},
